@@ -2,7 +2,7 @@
   "name": "kaizen-server",
   "version": "0.0.1",
   "description": "",
-  "author": "",
+  "author": "Abir Santra",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
@@ -21,10 +21,22 @@
   },
   "dependencies": {
     "@nestjs/common": "^11.0.1",
+    "@nestjs/config": "^4.0.4",
     "@nestjs/core": "^11.0.1",
+    "@nestjs/jwt": "^11.0.2",
     "@nestjs/platform-express": "^11.0.1",
+    "@prisma/client": "^7.8.0",
+    "@types/cookie-parser": "^1.4.10",
+    "argon2": "^0.44.0",
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.20.0",
+    "prisma": "^7.8.0",
     "reflect-metadata": "^0.2.2",
-    "rxjs": "^7.8.1"
+    "rxjs": "^7.8.1",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.2.0",
